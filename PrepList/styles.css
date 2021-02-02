@@ -1,0 +1,252 @@
+﻿/*Navbar*/
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width:auto;
+    background-image: url('images/wood.jpg');
+    overflow:auto;
+    border-width:2px;
+    border-style:ridge;
+    border-color:blanchedalmond;
+}
+.navBar a {
+    float:left;
+    padding:12px;
+    color:purple;
+    text-decoration:none;
+    font-size:20px;
+    width:18.26%;
+    text-align:center;
+    font-weight:bold;
+    font-family: 'Lucida Sans Unicode', 'Lucinda Grande', sans-serif;
+}
+.navBar a:hover {
+    background-color:mediumaquamarine;
+}
+.navBar a.active {
+    background-color:purple;
+    color:white;
+}
+
+/*General*/
+body{
+    background-color:black;
+}
+.pageHeader {
+    text-align: center;
+    background-color: #633B19;
+    font-size: 60px;
+    font-weight: bold;
+    color: #F1C264;
+    border-width: 4px;
+    border-style: ridge;
+    border-color: blanchedalmond;
+    font-family: 'Lucida Sans Unicode', 'Lucinda Grande', sans-serif;
+}
+main { /*sets the border for the main content*/
+    margin-top:5px;
+    margin-bottom:10px;
+    padding:20px;
+    border-width:2px;
+    border-style:ridge;
+    border-color:blanchedalmond;
+    background-color:#633B19;
+}
+html { /*Sets the whole page margins*/
+    max-width:1400px;
+    margin:auto;
+}
+.mainP {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #F1C264;
+    font-size: 20px;
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-family: 'Lucida Sans Unicode', 'Lucinda Grande', sans-serif;
+}
+.mainP a:hover {
+    color:mediumaquamarine;
+}
+footer {
+    background-image: url('images/wood.jpg');
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucinda Grande', sans-serif;
+    padding: 5px;
+    font-size: 18px;
+}
+.copyright {
+    margin-left:8%;
+}
+.topLink {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+.topLink:hover {
+    color:mediumaquamarine;
+}
+.badges {
+    float: right;
+}
+.subHead {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucinda Grande', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color:gold;
+}
+a:link {
+    text-decoration: none; /*gets rid of all underlines on all links*/
+    color:mediumaquamarine;
+}
+#indexMap {
+    color:mediumaquamarine;
+}
+#indexMap:hover {
+    color:mediumaquamarine;
+}
+
+/*Images & Google map*/
+#indexIMG1 { /*ANNOYING*/
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:95%;
+    object-fit:fill;
+}
+#indexIMG2 {
+    display:block;
+    width:50%;
+    height:50%;
+    margin-left:auto;
+    margin-right:auto;
+    object-fit:fill;
+}
+#googleMap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+}
+
+/*Product page*/
+#productList li{
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #F1C264;
+    text-align:center;
+    margin-left:-3%;
+}
+
+/*Personnel photos*/
+.column {
+    float:left;
+    width:24%;
+    border:ridge;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display:table;
+}
+.row {
+    margin-left:11%;
+    margin-right:10%;
+}
+.info {
+    /*border:ridge;*/
+    margin-top:0px;
+    margin-bottom:0px;
+    text-align:center;
+}
+#personnelText {
+    border:ridge;
+}
+
+/*Purchase page*/
+#purchaseForm {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Lucida Sans Unicode', 'Lucinda Grande', sans-serif;
+    color: #F1C264;
+}
+#fName {
+    margin-left:40px;
+}
+#lName {
+    margin-left:43px;
+}
+.merch {
+    margin-left: 158px;
+}
+#delivery {
+    margin-left:66px;
+}
+#purchaseButton {
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: 'Lucida Sans Unicode', 'Lucinda Grande', sans-serif;
+    margin-left:30px;
+}
+#totalCost {
+    margin-left: 62px;
+}
+.sub {
+    margin-left:158px;
+}
+#creditCard {
+    margin-left:1px;
+}
+#comments {
+    width:400px;
+    height:auto;
+    resize:none;
+    margin-left:41px;
+    margin-top:8px;
+}
+
+/*Sitemap page*/
+#sitemapMain {
+    list-style-type: none;
+    text-align: center;
+    margin-left:42%;
+    margin-right:42%;
+    color:mediumaquamarine;
+}
+#sitemapMain a:hover {
+    text-decoration:underline;
+}
+#sitemapMain a{
+    color:mediumaquamarine;
+    text-align:center;
+}
+li.active {
+    color:ghostwhite;
+}
+
+/*Accordions*/
+li.panel {
+    display:none;
+    font-size:20px;
+    color:black;
+    list-style-type:none;
+}
+li.panel a {
+    color:#F1C264;
+    text-align:center;
+}
+.accordion:hover {
+    color: mediumaquamarine;
+    text-decoration: underline;
+}
